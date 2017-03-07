@@ -95,39 +95,57 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UqP-yd-BNy">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="151"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIb-qG-44h">
+                                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIb-qG-44h">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.5" height="151"/>
                                                 <state key="normal" image="slow2x-iphone"/>
+                                                <connections>
+                                                    <action selector="btnPlaySoundClicked:" destination="zss-Za-5ZU" eventType="touchUpInside" id="Ax8-mp-ngd"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zey-6H-dhA">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zey-6H-dhA">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="151"/>
                                                 <state key="normal" image="fast2x-iphone"/>
+                                                <connections>
+                                                    <action selector="btnPlaySoundClicked:" destination="zss-Za-5ZU" eventType="touchUpInside" id="g5f-ed-0Zx"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1fI-3u-vKn">
                                         <rect key="frame" x="0.0" y="151" width="343" height="150.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPV-we-ZeJ">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPV-we-ZeJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.5" height="150.5"/>
                                                 <state key="normal" image="chipmunk2x-iphone"/>
+                                                <connections>
+                                                    <action selector="btnPlaySoundClicked:" destination="zss-Za-5ZU" eventType="touchUpInside" id="QJp-fs-dSa"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyt-xA-Tmz">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyt-xA-Tmz">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="150.5"/>
                                                 <state key="normal" image="darthvader2x-iphone"/>
+                                                <connections>
+                                                    <action selector="btnPlaySoundClicked:" destination="zss-Za-5ZU" eventType="touchUpInside" id="Wr1-hj-AC2"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hZM-PU-MLX">
                                         <rect key="frame" x="0.0" y="301.5" width="343" height="151"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTk-Cb-9wu">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTk-Cb-9wu">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.5" height="151"/>
                                                 <state key="normal" image="echo"/>
+                                                <connections>
+                                                    <action selector="btnPlaySoundClicked:" destination="zss-Za-5ZU" eventType="touchUpInside" id="nlP-fZ-Lqk"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5p-5M-48e">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5p-5M-48e">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="151"/>
                                                 <state key="normal" image="reverb"/>
+                                                <connections>
+                                                    <action selector="btnPlaySoundClicked:" destination="zss-Za-5ZU" eventType="touchUpInside" id="vdp-R3-upX"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -137,6 +155,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R85-UC-jxI">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="150.5"/>
                                                 <state key="normal" image="stop2x-iphone"/>
+                                                <connections>
+                                                    <action selector="btnStopClicked:" destination="zss-Za-5ZU" eventType="touchUpInside" id="cDS-fs-WK2"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -151,6 +172,15 @@
                             <constraint firstAttribute="trailingMargin" secondItem="NNU-pz-hRl" secondAttribute="trailing" id="YCh-ah-sfF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="chipmunkButton" destination="hIb-qG-44h" id="yk1-sf-wom"/>
+                        <outlet property="echoButton" destination="Zey-6H-dhA" id="tC9-Nr-Sxs"/>
+                        <outlet property="rabbitButton" destination="BPV-we-ZeJ" id="IOg-hk-18H"/>
+                        <outlet property="reverbButton" destination="dyt-xA-Tmz" id="tyU-xZ-1pY"/>
+                        <outlet property="snailButton" destination="zTk-Cb-9wu" id="j8H-oV-vUe"/>
+                        <outlet property="stopButton" destination="R85-UC-jxI" id="WL9-Qb-PMs"/>
+                        <outlet property="vaderButton" destination="x5p-5M-48e" id="WhK-uj-tKP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DYC-ep-0UY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
